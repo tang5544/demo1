@@ -8,10 +8,10 @@ import java.sql.DriverManager;
 
 public class DMUtil 
 {
-	//private String url = "jdbc:mysql://119.23.59.109:3306/depot?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
-  private String url = "jdbc:mysql://localhost:3306/depot?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
+	private String url = "jdbc:mysql://119.23.59.109:3306/depot?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
+  //private String url = "jdbc:mysql://localhost:3306/depot?characterEncoding=utf8&useSSL=false&serverTimezone=UTC";
   private String userName = "root";
-  private String userPassword = "";
+  private String userPassword = "root";
   private String jdbcName = "com.mysql.cj.jdbc.Driver";
   
   public Connection getCon() throws Exception

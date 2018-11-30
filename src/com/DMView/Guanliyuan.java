@@ -56,7 +56,7 @@ public class Guanliyuan extends javax.swing.JFrame {
 
 		jMenu1.setIcon(new javax.swing.ImageIcon(
 				"D:\\Myelipse\\images4\\bookTypeManager.png")); // NOI18N
-		jMenu1.setText("货物出入库");
+		jMenu1.setText("货物出入库...");
 
 		jMenuItem2.setIcon(new javax.swing.ImageIcon(
 				"D:\\Myelipse\\images4\\modify.png")); // NOI18N
